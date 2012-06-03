@@ -27,7 +27,7 @@ sub tw_link {
 		else {
 			$target = $link_target eq 1 ? qq( target="_blank") : '';
 			$class = $link_class eq 1 ? qq( class="twitter-anywhere-user") : '';
-			$line = qq(<a$class href="//www.twitter.com/$account"$target>\@$account</a>);
+			$line = qq(<a$class href="//twitter.com/$account"$target>\@$account</a>);
 		}
 		return $line;
 }
