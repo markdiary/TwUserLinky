@@ -3,7 +3,7 @@ function smarty_modifier_TwUserLink( $str, $args) {
 	if ($args != 1) {
 		return $str;
 	}
-	return  preg_replace_callback('/([\\.\\\])?@(\w{1,15})/'
+	return  preg_replace_callback('/([\\.\\\])?@([0-9a-zA-Z_]{1,15})/'
 		, twlink
 		, $str);
 }
