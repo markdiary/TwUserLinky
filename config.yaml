@@ -5,7 +5,7 @@ version: 1.1.2
 description: <__trans phrase="Twitter User auto link">
 author_name: maRk
 author_link: http://labs.markdiary.com/
-doc_link: http://www.markdiary.com/plugins/
+doc_link: http://labs.markdiary.com/logs/2012/06/twuserlinky-pluguin.html
 
 blog_config_template: config.tmpl
 l10n_lexicon:
