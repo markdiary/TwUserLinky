@@ -22,7 +22,7 @@ function twlink($matches){
 		$target = $link_target ==='1' ? ' target="_blank"' : '';
 		$class  = $link_class ==='1' ? ' class="twitter-anywhere-user"' : '';
 
-		$line = '<a' . $class . ' href="//twitter.com/' .$matches[2]. '"' . $target . '>' .'@'. $matches[2] . '</a>';
+		$line = '<a' . $class . ' href="https://twitter.com/' .$matches[2]. '"' . $target . '>' .'@'. $matches[2] . '</a>';
 	}
 return $line;
 }
