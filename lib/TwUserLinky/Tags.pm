@@ -6,6 +6,7 @@ use MT::Template::Context;
 
 sub _hdlr_tw_user_link{
 		my ($str, $arg, $ctx) = @_;
+		mt $flg = '';
 		return $str if $arg != 1;
 		my $plugin = MT->component('TwUserLinky');
 
@@ -18,10 +19,10 @@ sub _hdlr_tw_user_link{
 
 sub tw_link {
 		my ( $flg, $account, $link_target, $link_class ) = @_;
-		my $line;
-		my $target;
-		my $class;
-		if ( $flg =~ /\.|\\/ ){
+		my $line = '';
+		my $target = '';
+		my $class = '';
+		if ( $flg ){
 			$line = '@'. $account;
 		}
 		else {
