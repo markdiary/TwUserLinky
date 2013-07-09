@@ -1,3 +1,10 @@
 Setting of Link Target: リンクを新規ウィンドウ（新規タブ）で開く
 Twitter User auto link: Twitterユーザー名を自動リンクします。
 Add to Link Class: リンクにclassをつける
+Add space between words: わかち書きにする
+open: 開く
+not open: 開かない
+use: つける
+not use: つけない
+no: いいえ
+yes: はい
