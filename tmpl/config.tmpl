@@ -1,6 +1,27 @@
-<mtapp:setting id="twLinky_target" label="<__trans phrase="Setting of Link Target">">
-		<input type="checkbox" id="twLinky_target" name="twLinky_target" value="1"<mt:if name="twLinky_target"> checked="checked"</mt:if> />
+<mtapp:setting
+ id="twLinky_target"
+ label="<__trans phrase="Setting of Link Target">"
+>
+  <input type="radio" name="twLinky_target" id="twLinky_target"<mt:if name="twLinky_target" eq="false"> checked="checked"</mt:if> value="false" />
+  <label for="twLinky_target"><__trans phrase="not open"></label>
+  <input type="radio" name="twLinky_target" id="twLinky_target"<mt:if name="twLinky_target" eq="true"> checked="checked"</mt:if> value="true" />
+  <label for="twLinky_target"><__trans phrase="open"></label>
 </mtapp:setting>
-<mtapp:setting id="twLinky_class" label="<__trans phrase="Add to Link Class">">
-		<input type="checkbox" id="twLinky_class" name="twLinky_class" value="1"<mt:if name="twLinky_class"> checked="checked"</mt:if> />
+<mtapp:setting
+ id="twLinky_class"
+ label="<__trans phrase="Add to Link Class">"
+>
+  <input type="radio" name="twLinky_class" id="twLinky_class"<mt:if name="twLinky_class" eq="false"> checked="checked"</mt:if> value="false" />
+  <label for="twLinky_class"><__trans phrase="not use"></label>
+  <input type="radio" name="twLinky_class" id="twLinky_class"<mt:if name="twLinky_class" eq="true"> checked="checked"</mt:if> value="true" />
+  <label for="twLinky_class"><__trans phrase="use"></label>
+</mtapp:setting>
+<mtapp:setting
+ id="twLinky_seg"
+ label="<__trans phrase="Add space between words">"
+>
+  <input type="radio" name="twLinky_seg" id="twLinky_seg"<mt:if name="twLinky_seg" eq="false"> checked="checked"</mt:if> value="false" />
+  <label for="twLinky_seg"><__trans phrase="no"></label>
+  <input type="radio" name="twLinky_seg" id="twLinky_seg"<mt:if name="twLinky_seg" eq="true"> checked="checked"</mt:if> value="true" />
+  <label for="twLinky_seg"><__trans phrase="yes"></label>
 </mtapp:setting>
