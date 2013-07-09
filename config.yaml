@@ -1,7 +1,7 @@
 id: TwUserLinky
 key: TwUserLinky
 name: TwUserLinky Plugin
-version: 1.1.3
+version: 1.2
 description: <__trans phrase="Twitter User auto link">
 author_name: maRk
 author_link: http://labs.markdiary.com/
@@ -11,11 +11,14 @@ blog_config_template: config.tmpl
 l10n_lexicon:
     ja: l10n_ja.yaml
 settings:
+    twLinky_seg:
+        Default: 'false'
+        Scope: blog
     twLinky_target:
-        Default: '0'
+        Default: 'false'
         Scope: blog
     twLinky_class:
-        Default: '1'
+        Default: 'true'
         Scope: blog
 tags:
     modifier:
