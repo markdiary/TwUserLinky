@@ -26,8 +26,7 @@
             $target = $link_target === "true" ? ' target="_blank"' : '';
             $class  = $link_class === "true" ? ' class="twitter-anywhere-user"' : '';
             $space  = $add_segmentation === "true" ? ' ' : '';
-            $data = ' data-blogid="'.$blog_id.'"'. ' data-target="'.$link_target. '" data-seg="'.$add_segmentation. '"';
-            $line .= $space . '<a'  . $data . $class . ' href="https://twitter.com/' .$matches[2]. '"' . $target . '>' .'@'. $matches[2] . '</a>' . $space;
+            $line .= $space . '<a' . $class . ' href="https://twitter.com/' .$matches[2]. '"' . $target . '>' .'@'. $matches[2] . '</a>' . $space;
         }
         
         return $line;
