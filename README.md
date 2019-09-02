@@ -1,21 +1,20 @@
 # TwUserLinky
 
-=== Synopsis ===
+## Synopsis
 
-{{{
-<$mt:EntryBody TwUserLink="1"$>
-}}}
+`<$mt:EntryBody TwUserLink="1"$>`
 
-=== Settings ===
-
+## Settings
 possible to Setting from individual Blog Settings.
+
 * Link Target
 * Add to Class Name
-==== How to Escape the link ====
+
+## How to Escape the link
 Put a backslash (\) or a period (.) , before the @.
 
-=== License ===
+## License
 MIT license on Movable Type 6.x. (Other version : The same as that version license)
 
-=== Author ===
-maRk <<user markdiarycom>>
+## Author
+maRk (markdiary.com)
